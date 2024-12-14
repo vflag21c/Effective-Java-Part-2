@@ -1,0 +1,2 @@
+module Effective.Java.hello {
+}
