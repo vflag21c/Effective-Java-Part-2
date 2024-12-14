@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 모듈">
-      <change afterPath="$PROJECT_DIR$/Memo/public 클래스 필드 접근.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item16/dimension/DimensionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item16/point/field/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item16/point/method/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item16/time/Time.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - public 클래스의 필드 접근">
+      <change afterPath="$PROJECT_DIR$/Memo/불변 클래스.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/PhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +106,7 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item15.class_and_interfaces.module.Hello.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.dimension.DimensionExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.point.field.Point.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -115,7 +115,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chapter04/item16",
+    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chapter04/item17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,6 +130,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item16" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item15\class_and_interfaces" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item15" />
@@ -141,7 +142,7 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DimensionExample">
+  <component name="RunManager" selected="Application.Person">
     <configuration name="DimensionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter04.item16.dimension.DimensionExample" />
       <module name="Effective-Java-Part-2.main" />
@@ -155,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item15.class_and_interfaces.module.Hello" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item17.part1.Person" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter04.item15.class_and_interfaces.module.*" />
+          <option name="PATTERN" value="example.chapter04.item17.part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.DimensionExample" />
         <item itemvalue="Application.Point" />
         <item itemvalue="Gradle.Effective-Java-Part-2:hello-module [jar]" />
         <item itemvalue="Gradle.Effective-Java-Part-2:hello-module [build]" />
-        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +254,7 @@
       <updated>1734086952124</updated>
       <workItem from="1734086953519" duration="1157000" />
       <workItem from="1734088132383" duration="49000" />
-      <workItem from="1734146423431" duration="5892000" />
+      <workItem from="1734146423431" duration="6765000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -279,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734153100751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Effective Java - public 클래스의 필드 접근">
+      <option name="closed" value="true" />
+      <created>1734154002268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734154002268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +320,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Effective Java - 접근제한자" />
     <MESSAGE value="Effective Java - 모듈" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 모듈" />
+    <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - public 클래스의 필드 접근" />
   </component>
 </project>
