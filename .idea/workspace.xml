@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - public 클래스의 필드 접근">
-      <change afterPath="$PROJECT_DIR$/Memo/불변 클래스.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part1/PhoneNumber.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 불변 클래스">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part2/BigIntExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part2/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/part2/StringExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memo/불변 클래스.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memo/불변 클래스.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +254,7 @@
       <updated>1734086952124</updated>
       <workItem from="1734086953519" duration="1157000" />
       <workItem from="1734088132383" duration="49000" />
-      <workItem from="1734146423431" duration="6765000" />
+      <workItem from="1734146423431" duration="10028000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734154002268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Effective Java - 불변 클래스">
+      <option name="closed" value="true" />
+      <created>1734154869885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734154869885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +329,7 @@
     <MESSAGE value="Effective Java - 접근제한자" />
     <MESSAGE value="Effective Java - 모듈" />
     <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - public 클래스의 필드 접근" />
+    <MESSAGE value="Effective Java - 불변 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 불변 클래스" />
   </component>
 </project>
