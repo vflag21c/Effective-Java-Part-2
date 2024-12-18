@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 불변 클래스 장단점">
-      <change afterPath="$PROJECT_DIR$/Memo/final과 자바메모리 모델.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/memorymodel/Whiteship.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - final 과 JMM">
+      <change afterPath="$PROJECT_DIR$/Memo/CountDownLatch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Memo/concurrent 패키지.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item17/concurrent/ConcurrentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +105,7 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item15.class_and_interfaces.module.Hello.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.dimension.DimensionExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.point.field.Point.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.concurrent.ConcurrentExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
@@ -141,7 +143,20 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Person">
+  <component name="RunManager" selected="Application.ConcurrentExample">
+    <configuration name="ConcurrentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item17.concurrent.ConcurrentExample" />
+      <module name="Effective-Java-Part-2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter04.item17.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DimensionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter04.item16.dimension.DimensionExample" />
       <module name="Effective-Java-Part-2.main" />
@@ -181,28 +196,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Effective-Java-Part-2:hello-module [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hello-module" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="Effective-Java-Part-2:hello-module [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrentExample" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.DimensionExample" />
         <item itemvalue="Application.Point" />
         <item itemvalue="Gradle.Effective-Java-Part-2:hello-module [jar]" />
-        <item itemvalue="Gradle.Effective-Java-Part-2:hello-module [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +250,7 @@
       <workItem from="1734171490703" duration="8000" />
       <workItem from="1734171527582" duration="75000" />
       <workItem from="1734229560257" duration="913000" />
-      <workItem from="1734526996525" duration="973000" />
+      <workItem from="1734526996525" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -307,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734171387699</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Effective Java - final 과 JMM">
+      <option name="closed" value="true" />
+      <created>1734527973214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734527973214</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +343,7 @@
     <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
     <MESSAGE value="Effective Java - 불변 클래스" />
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 불변 클래스 장단점" />
+    <MESSAGE value="Effective Java - final 과 JMM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - final 과 JMM" />
   </component>
 </project>
