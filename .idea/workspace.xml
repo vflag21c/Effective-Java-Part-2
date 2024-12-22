@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 불변 클래스 장단점">
-      <change afterPath="$PROJECT_DIR$/Memo/Composition.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/ForwardingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/InstrumentedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/InstrumentedSet.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - Composition">
+      <change afterPath="$PROJECT_DIR$/Memo/데코레이터 패턴.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734171387699</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Effective Java - Composition">
+      <option name="closed" value="true" />
+      <created>1734834500295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734834500295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +332,7 @@
     <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
     <MESSAGE value="Effective Java - 불변 클래스" />
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 불변 클래스 장단점" />
+    <MESSAGE value="Effective Java - Composition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Composition" />
   </component>
 </project>
