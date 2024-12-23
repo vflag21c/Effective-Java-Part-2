@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - Composition">
-      <change afterPath="$PROJECT_DIR$/Memo/데코레이터 패턴.md" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - final 과 JMM">
+      <change afterPath="$PROJECT_DIR$/Memo/콜백 프레임워크와 셀프 문제.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/callback/BobFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/callback/BobFunctionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/callback/FunctionToCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item18/callback/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,9 +107,9 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item15.class_and_interfaces.module.Hello.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.dimension.DimensionExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.point.field.Point.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.concurrent.ConcurrentExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedHashSet.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedSet.main()].executor": "Debug",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.callback.Service.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -114,7 +118,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chapter04/item18",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chapter04/item18",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,11 +133,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item18" />
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item18" />
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item16" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item15\class_and_interfaces" />
-      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item15" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -142,39 +146,26 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InstrumentedSet">
+  <component name="RunManager" selected="Application.Service">
+    <configuration name="ConcurrentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item17.concurrent.ConcurrentExample" />
+      <module name="Effective-Java-Part-2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter04.item17.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DimensionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter04.item16.dimension.DimensionExample" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.chapter04.item16.dimension.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstrumentedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item18.InstrumentedHashSet" />
-      <module name="Effective-Java-Part-2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter04.item18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstrumentedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item18.InstrumentedSet" />
-      <module name="Effective-Java-Part-2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter04.item18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,10 +199,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item18.callback.Service" />
+      <module name="Effective-Java-Part-2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter04.item18.callback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InstrumentedSet" />
-        <item itemvalue="Application.InstrumentedHashSet" />
+        <item itemvalue="Application.Service" />
+        <item itemvalue="Application.ConcurrentExample" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.DimensionExample" />
         <item itemvalue="Application.Point" />
@@ -221,8 +225,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -240,6 +244,7 @@
       <workItem from="1734171490703" duration="8000" />
       <workItem from="1734171527582" duration="75000" />
       <workItem from="1734229560257" duration="913000" />
+      <workItem from="1734526996525" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -289,13 +294,13 @@
       <option name="project" value="LOCAL" />
       <updated>1734171387699</updated>
     </task>
-    <task id="LOCAL-00007" summary="Effective Java - Composition">
+    <task id="LOCAL-00007" summary="Effective Java - final 과 JMM">
       <option name="closed" value="true" />
-      <created>1734834500295</created>
+      <created>1734527973214</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1734834500295</updated>
+      <updated>1734527973214</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -332,7 +337,7 @@
     <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
     <MESSAGE value="Effective Java - 불변 클래스" />
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
-    <MESSAGE value="Effective Java - Composition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Composition" />
+    <MESSAGE value="Effective Java - final 과 JMM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - final 과 JMM" />
   </component>
 </project>
