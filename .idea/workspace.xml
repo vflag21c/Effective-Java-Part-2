@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 콜백">
-      <change afterPath="$PROJECT_DIR$/Memo/상속.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item19/constructor/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item19/constructor/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item19/impespec/ExtendableClass.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 상속">
+      <change afterPath="$PROJECT_DIR$/Memo/인터페이스 장점.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/defaultmethod/SimpleTimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/defaultmethod/TimeClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +72,7 @@
         <option value="JUnit5 Test Class" />
         <option value="module-info" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -118,7 +118,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chapter04/item19",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chapter04/item20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -133,11 +133,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item20" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item19" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item18" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
-      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item16" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -245,6 +245,7 @@
       <workItem from="1734171527582" duration="75000" />
       <workItem from="1734229560257" duration="913000" />
       <workItem from="1734526996525" duration="2004000" />
+      <workItem from="1735122403345" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -310,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734963344197</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Effective Java - 상속">
+      <option name="closed" value="true" />
+      <created>1734966394780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734966394780</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +356,7 @@
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
     <MESSAGE value="Effective Java - final 과 JMM" />
     <MESSAGE value="Effective Java - 콜백" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 콜백" />
+    <MESSAGE value="Effective Java - 상속" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 상속" />
   </component>
 </project>
