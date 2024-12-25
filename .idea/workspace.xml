@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 인터페이스 장점">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/skeleton/AbstractMapEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/skeleton/IntArrays.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 추상 골격 클래스">
+      <change afterPath="$PROJECT_DIR$/number.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/templatemethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/templatemethod/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item20/templatemethod/Plus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memo/인터페이스 장점.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memo/인터페이스 장점.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +111,7 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.callback.Service.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item19.constructor.Sub.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item20.multipleinheritance.MyCat.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item20.skeleton.IntArrays.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
@@ -147,13 +149,13 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyCat">
-    <configuration name="ConcurrentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item17.concurrent.ConcurrentExample" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item20.templatemethod.Client" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter04.item17.concurrent.*" />
+          <option name="PATTERN" value="example.chapter04.item20.templatemethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.MyCat" />
         <item itemvalue="Application.IntArrays" />
         <item itemvalue="Application.Sub" />
         <item itemvalue="Application.Service" />
-        <item itemvalue="Application.ConcurrentExample" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,7 @@
       <workItem from="1734171527582" duration="75000" />
       <workItem from="1734229560257" duration="913000" />
       <workItem from="1734526996525" duration="2004000" />
-      <workItem from="1735122403345" duration="1900000" />
+      <workItem from="1735122403345" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -328,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735123438931</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Effective Java - 추상 골격 클래스">
+      <option name="closed" value="true" />
+      <created>1735124613988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735124613988</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +377,7 @@
     <MESSAGE value="Effective Java - 콜백" />
     <MESSAGE value="Effective Java - 상속" />
     <MESSAGE value="Effective Java - 인터페이스 장점" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 인터페이스 장점" />
+    <MESSAGE value="Effective Java - 추상 골격 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 추상 골격 클래스" />
   </component>
 </project>
