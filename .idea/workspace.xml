@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 인터페이스">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item21/failfast/FailFast.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - ConcurrentModificationException">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item22/constantinterface/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item22/constantinterface/PhysicalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item22/constantutilityclass/PhysicalConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memo/인터페이스.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memo/인터페이스.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chapter04/item21",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chapter04",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -136,11 +139,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item21" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item20" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item19" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item18" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -250,7 +253,7 @@
       <workItem from="1734526996525" duration="2004000" />
       <workItem from="1735122403345" duration="3695000" />
       <workItem from="1735476704502" duration="1679000" />
-      <workItem from="1735564387950" duration="421000" />
+      <workItem from="1735564387950" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -364,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735478774082</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Effective Java - ConcurrentModificationException">
+      <option name="closed" value="true" />
+      <created>1735564816426</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735564816426</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +418,7 @@
     <MESSAGE value="Effective Java - 템플릿 메서드 패턴" />
     <MESSAGE value="Effective Java - 디폴트 &amp; Object 메서드" />
     <MESSAGE value="Effective Java - 인터페이스" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 인터페이스" />
+    <MESSAGE value="Effective Java - ConcurrentModificationException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - ConcurrentModificationException" />
   </component>
 </project>
