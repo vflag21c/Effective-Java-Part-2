@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - Composition">
-      <change afterPath="$PROJECT_DIR$/Memo/클래스 계층구조.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item23/hierarchy/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item23/hierarchy/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item23/hierarchy/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item23/hierarchy/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item23/taggedclass/Figure.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 클래스 계층 구조">
+      <change afterPath="$PROJECT_DIR$/Memo/멤버 클래스.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item24/anonymousclass/IntArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item24/localclass/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item24/memberclass/MySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item24/memberclass/OutterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter04/item24/staticmemberclass/OutterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +111,7 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedHashSet.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedSet.main()].executor": "Debug",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item24.staticmemberclass.OutterClass.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -119,7 +120,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chapter04",
+    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chapter04/item24",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -134,11 +135,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item24" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item18" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item17" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item16" />
-      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item15\class_and_interfaces" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -147,7 +148,7 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InstrumentedSet">
+  <component name="RunManager" selected="Application.OutterClass">
     <configuration name="DimensionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter04.item16.dimension.DimensionExample" />
       <module name="Effective-Java-Part-2.main" />
@@ -187,6 +188,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OutterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item24.staticmemberclass.OutterClass" />
+      <module name="Effective-Java-Part-2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter04.item24.staticmemberclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter04.item17.part1.Person" />
       <module name="Effective-Java-Part-2.main" />
@@ -200,26 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item16.point.field.Point" />
-      <module name="Effective-Java-Part-2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter04.item16.point.field.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OutterClass" />
         <item itemvalue="Application.InstrumentedSet" />
         <item itemvalue="Application.InstrumentedHashSet" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.DimensionExample" />
-        <item itemvalue="Application.Point" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734834500295</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Effective Java - 클래스 계층 구조">
+      <option name="closed" value="true" />
+      <created>1735644510467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735644510467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +347,7 @@
     <MESSAGE value="Effective Java - 불변 클래스" />
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
     <MESSAGE value="Effective Java - Composition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Composition" />
+    <MESSAGE value="Effective Java - 클래스 계층 구조" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 클래스 계층 구조" />
   </component>
 </project>
