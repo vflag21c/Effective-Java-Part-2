@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 어노테이션">
-      <change afterPath="$PROJECT_DIR$/Memo/배열과 리스트.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/erasure/IntegerToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/erasure/MyGeneric.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 배열과 리스트">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/array_to_list/Chooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/array_to_list/Chooser_Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +116,7 @@
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item21.failfast.FailFast.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item25.Main.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chaptor05.item27.annotation.MyClass.main()].executor": "Debug",
+    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item28.array_to_list.Chooser_Array.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -153,13 +153,26 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyClass">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item20.templatemethod.Client" />
+  <component name="RunManager" selected="Application.Chooser">
+    <configuration name="Chooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item28.array_to_list.Chooser" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter04.item20.templatemethod.*" />
+          <option name="PATTERN" value="example.chaptor05.item28.array_to_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chooser_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item28.array_to_list.Chooser_Array" />
+      <module name="Effective-Java-Part-2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chaptor05.item28.array_to_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,26 +219,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item21.SubClass" />
-      <module name="Effective-Java-Part-2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter04.item21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chooser" />
+        <item itemvalue="Application.Chooser_Array" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FailFast" />
-        <item itemvalue="Application.SubClass" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,7 @@
       <workItem from="1735122403345" duration="3695000" />
       <workItem from="1735476704502" duration="1679000" />
       <workItem from="1735564387950" duration="731000" />
-      <workItem from="1736254799736" duration="802000" />
+      <workItem from="1736254799736" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -401,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736083142503</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Effective Java - 배열과 리스트">
+      <option name="closed" value="true" />
+      <created>1736255610448</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736255610448</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,6 +456,7 @@
     <MESSAGE value="Effective Java - 톱 레벨 클래스" />
     <MESSAGE value="Effective Java - 비검사 경고" />
     <MESSAGE value="Effective Java - 어노테이션" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 어노테이션" />
+    <MESSAGE value="Effective Java - 배열과 리스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 배열과 리스트" />
   </component>
 </project>
