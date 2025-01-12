@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 배열과 리스트">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/array_to_list/Chooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/array_to_list/Chooser_Array.java" afterDir="false" />
+    <list default="true" id="02ee18a4-704b-42a0-8e1c-4c359ce88ab7" name="Changes" comment="Effective Java - 로타입">
+      <change afterPath="$PROJECT_DIR$/Memo/가변 인자.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item28/safevarags/SafeVaragsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item29/EmptyStackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item29/object/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item29/technqiue1/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chaptor05/item29/technqiue2/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memo/제네릭.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memo/제네릭.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,6 @@
         <option value="JUnit5 Test Class" />
         <option value="module-info" />
         <option value="Class" />
-        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -101,22 +105,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AccountRepositoryTest.findById.executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item15.class_and_interfaces.member.DefaultMemberService.main()].executor": "Debug",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item15.class_and_interfaces.module.Hello.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.dimension.DimensionExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item16.point.field.Point.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.concurrent.ConcurrentExample.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2 [:example.chapter04.item17.part1.Person.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.callback.Service.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item19.constructor.Sub.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item20.multipleinheritance.MyCat.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item20.skeleton.IntArrays.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item20.templatemethod.Client.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item21.SubClass.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item21.failfast.FailFast.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chapter04.item25.Main.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item27.annotation.MyClass.main()].executor": "Debug",
-    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item28.array_to_list.Chooser_Array.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedHashSet.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item18.InstrumentedSet.main()].executor": "Debug",
+    "Gradle.Effective-Java-Part-2 [:example.chapter04.item24.staticmemberclass.OutterClass.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item26.object.Raw.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item26.raw.UseRawType.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-2 [:example.chaptor05.item26.unbounded.Numbers.main()].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [build].executor": "Run",
     "Gradle.Effective-Java-Part-2:hello-module [jar].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,7 +125,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-2/src/main/java/example/chaptor05/item28",
+    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-2/src/main/java/example/chaptor05/item29",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -140,11 +140,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chaptor05\item28" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chaptor05\item27" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chaptor05\item26" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-2\src\main\java\example\chapter04\item21" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chaptor05\item29" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chaptor05\item28" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\test\java\example" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chaptor05\item26" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-2\src\main\java\example\chapter04\item24" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -153,13 +153,13 @@
       <recent name="example.chapter04.item15.class_and_interfaces.item" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chooser">
-    <configuration name="Chooser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item28.array_to_list.Chooser" />
+  <component name="RunManager" selected="Gradle.AccountRepositoryTest.findById">
+    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item26.unbounded.Numbers" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chaptor05.item28.array_to_list.*" />
+          <option name="PATTERN" value="example.chaptor05.item26.unbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chooser_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item28.array_to_list.Chooser_Array" />
+    <configuration name="OutterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter04.item24.staticmemberclass.OutterClass" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chaptor05.item28.array_to_list.*" />
+          <option name="PATTERN" value="example.chapter04.item24.staticmemberclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailFast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item21.failfast.FailFast" />
+    <configuration name="Raw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item26.object.Raw" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter04.item21.failfast.*" />
+          <option name="PATTERN" value="example.chaptor05.item26.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter04.item25.Main" />
+    <configuration name="UseRawType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item26.raw.UseRawType" />
       <module name="Effective-Java-Part-2.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter04.item25.*" />
+          <option name="PATTERN" value="example.chaptor05.item26.raw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,34 +206,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chaptor05.item27.annotation.MyClass" />
-      <module name="Effective-Java-Part-2.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chaptor05.item27.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="AccountRepositoryTest.findById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;example.chapter05.item26.genericdao.AccountRepositoryTest.findById&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chooser" />
-        <item itemvalue="Application.Chooser_Array" />
-        <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FailFast" />
+        <item itemvalue="Gradle.AccountRepositoryTest.findById" />
+        <item itemvalue="Application.UseRawType" />
+        <item itemvalue="Application.Numbers" />
+        <item itemvalue="Application.Raw" />
+        <item itemvalue="Application.OutterClass" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -251,11 +262,6 @@
       <workItem from="1734171490703" duration="8000" />
       <workItem from="1734171527582" duration="75000" />
       <workItem from="1734229560257" duration="913000" />
-      <workItem from="1734526996525" duration="2004000" />
-      <workItem from="1735122403345" duration="3695000" />
-      <workItem from="1735476704502" duration="1679000" />
-      <workItem from="1735564387950" duration="731000" />
-      <workItem from="1736254799736" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 접근제한자">
       <option name="closed" value="true" />
@@ -305,111 +311,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734171387699</updated>
     </task>
-    <task id="LOCAL-00007" summary="Effective Java - final 과 JMM">
+    <task id="LOCAL-00007" summary="Effective Java - Composition">
       <option name="closed" value="true" />
-      <created>1734527973214</created>
+      <created>1734834500295</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1734527973214</updated>
+      <updated>1734834500295</updated>
     </task>
-    <task id="LOCAL-00008" summary="Effective Java - 콜백">
+    <task id="LOCAL-00008" summary="Effective Java - 클래스 계층 구조">
       <option name="closed" value="true" />
-      <created>1734963344197</created>
+      <created>1735644510467</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1734963344197</updated>
+      <updated>1735644510467</updated>
     </task>
-    <task id="LOCAL-00009" summary="Effective Java - 상속">
+    <task id="LOCAL-00009" summary="Effective Java - 로타입">
       <option name="closed" value="true" />
-      <created>1734966394780</created>
+      <created>1735992356756</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1734966394780</updated>
+      <updated>1735992356756</updated>
     </task>
-    <task id="LOCAL-00010" summary="Effective Java - 인터페이스 장점">
-      <option name="closed" value="true" />
-      <created>1735123438931</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1735123438931</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Effective Java - 추상 골격 클래스">
-      <option name="closed" value="true" />
-      <created>1735124613988</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1735124613988</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Effective Java - 템플릿 메서드 패턴">
-      <option name="closed" value="true" />
-      <created>1735125129158</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1735125129158</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Effective Java - 디폴트 &amp; Object 메서드">
-      <option name="closed" value="true" />
-      <created>1735477252440</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1735477252440</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Effective Java - 인터페이스">
-      <option name="closed" value="true" />
-      <created>1735478774082</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1735478774082</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Effective Java - ConcurrentModificationException">
-      <option name="closed" value="true" />
-      <created>1735564816426</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1735564816426</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Effective Java - 톱 레벨 클래스">
-      <option name="closed" value="true" />
-      <created>1735731752665</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1735731752665</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Effective Java - 비검사 경고">
-      <option name="closed" value="true" />
-      <created>1736082598626</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1736082598626</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Effective Java - 어노테이션">
-      <option name="closed" value="true" />
-      <created>1736083142503</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1736083142503</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Effective Java - 배열과 리스트">
-      <option name="closed" value="true" />
-      <created>1736255610448</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1736255610448</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,19 +370,9 @@
     <MESSAGE value="Effective Java - public 클래스의 필드 접근" />
     <MESSAGE value="Effective Java - 불변 클래스" />
     <MESSAGE value="Effective Java - 불변 클래스 장단점" />
-    <MESSAGE value="Effective Java - final 과 JMM" />
-    <MESSAGE value="Effective Java - 콜백" />
-    <MESSAGE value="Effective Java - 상속" />
-    <MESSAGE value="Effective Java - 인터페이스 장점" />
-    <MESSAGE value="Effective Java - 추상 골격 클래스" />
-    <MESSAGE value="Effective Java - 템플릿 메서드 패턴" />
-    <MESSAGE value="Effective Java - 디폴트 &amp; Object 메서드" />
-    <MESSAGE value="Effective Java - 인터페이스" />
-    <MESSAGE value="Effective Java - ConcurrentModificationException" />
-    <MESSAGE value="Effective Java - 톱 레벨 클래스" />
-    <MESSAGE value="Effective Java - 비검사 경고" />
-    <MESSAGE value="Effective Java - 어노테이션" />
-    <MESSAGE value="Effective Java - 배열과 리스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 배열과 리스트" />
+    <MESSAGE value="Effective Java - Composition" />
+    <MESSAGE value="Effective Java - 클래스 계층 구조" />
+    <MESSAGE value="Effective Java - 로타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 로타입" />
   </component>
 </project>
